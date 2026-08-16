@@ -1,0 +1,32 @@
+# =========================
+# JARVIS PRIVATE DATA
+# =========================
+
+# API keys / secrets
+config/api_keys.json
+.env
+*.env
+secrets.json
+
+# Private certificates / keys
+config/certs/
+
+# Personal JARVIS memory
+memory/long_term.json
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
